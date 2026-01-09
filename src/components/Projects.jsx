@@ -1,66 +1,293 @@
-import projectWoodHouse from '../assets/images/project-wood-house.png';
-import projectStairs from '../assets/images/project-stairs.png';
-import projectOffice from '../assets/images/project-office.png';
-import projectInterior from '../assets/images/project-interior.png';
-import projectConcrete from '../assets/images/project-concrete.png';
-import projectLiving from '../assets/images/project-living.png';
-import projectCurved from '../assets/images/project-curved.png';
+// Importar todas las imágenes del portafolio
+import img1 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (1).jpeg';
+import img2 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (2).jpeg';
+import img3 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (3).jpeg';
+import img4 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (4).jpeg';
+import img5 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (5).jpeg';
+import img6 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (6).jpeg';
+import img7 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (7).jpeg';
+import img8 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (8).jpeg';
+import img9 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (9).jpeg';
+import img10 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (10).jpeg';
+import img11 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (11).jpeg';
+import img12 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (12).jpeg';
+import img13 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (13).jpeg';
+import img15 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (15).jpeg';
+import img16 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (16).jpeg';
+import img17 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (17).jpeg';
+import img18 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (18).jpeg';
+import img19 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (19).jpeg';
+import img20 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (20).jpeg';
+import img21 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (21).jpeg';
+import img22 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (22).jpeg';
+import img23 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (23).jpeg';
+import img24 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (24).jpeg';
+import img25 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (25).jpeg';
+import img26 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (26).jpeg';
+import img27 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (27).jpeg';
+import imgBase from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29.jpeg';
+import img30 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.30.jpeg';
+import img30_1 from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.30 (1).jpeg';
+import projectCultural from '../assets/images/project-cultural-center.jpg';
+import projectHotel from '../assets/images/project-hotel-corotu.jpg';
+import projectPlaza from '../assets/images/project-plaza.png';
 
 const projectsData = [
+    // Proyectos destacados
     {
         id: 1,
-        name: 'Forest Retreat',
-        category: 'residential',
-        categoryLabel: 'Residential',
-        image: projectWoodHouse,
+        name: 'Centro Cultural',
+        category: 'cultural',
+        categoryLabel: 'Cultural',
+        image: projectCultural,
         size: 'large',
     },
     {
         id: 2,
-        name: 'Concrete Ascent',
-        category: 'commercial',
-        categoryLabel: 'Commercial',
-        image: projectStairs,
+        name: 'Cuadra 89',
+        category: 'cultural',
+        categoryLabel: 'Cultural',
+        image: img3,
         size: 'normal',
     },
     {
         id: 3,
-        name: 'Skyline Office',
-        category: 'commercial',
-        categoryLabel: 'Commercial',
-        image: projectOffice,
+        name: 'Hotel Corotú',
+        category: 'hotelero',
+        categoryLabel: 'Hotelero',
+        image: projectHotel,
         size: 'normal',
     },
     {
         id: 4,
-        name: 'Light Space',
-        category: 'interiors',
-        categoryLabel: 'Interiors',
-        image: projectInterior,
-        size: 'normal',
+        name: 'Plaza Comercial',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: projectPlaza,
+        size: 'large',
     },
     {
         id: 5,
-        name: 'Angular Forms',
-        category: 'landscape',
-        categoryLabel: 'Landscape',
-        image: projectConcrete,
+        name: 'Lago Chico Las Cumbres',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img23,
         size: 'normal',
     },
     {
         id: 6,
-        name: 'Cozy Living',
-        category: 'interiors',
-        categoryLabel: 'Interiors',
-        image: projectLiving,
-        size: 'large',
+        name: 'Quebarada Sector C',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img24,
+        size: 'normal',
     },
     {
         id: 7,
-        name: 'Wave Center',
-        category: 'urban',
-        categoryLabel: 'Urban Planning',
-        image: projectCurved,
+        name: 'Edificio Comercial',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: img7,
+        size: 'normal',
+    },
+    {
+        id: 8,
+        name: 'Resort Costero',
+        category: 'hotelero',
+        categoryLabel: 'Hotelero',
+        image: imgBase,
+        size: 'normal',
+    },
+    {
+        id: 9,
+        name: 'Vista Tropical',
+        category: 'residencial',
+        categoryLabel: 'Residencial',
+        image: img1,
+        size: 'large',
+    },
+    {
+        id: 10,
+        name: 'Desarrollo Urbano',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img2,
+        size: 'normal',
+    },
+    {
+        id: 11,
+        name: 'Residencia Moderna',
+        category: 'residencial',
+        categoryLabel: 'Residencial',
+        image: img4,
+        size: 'normal',
+    },
+    {
+        id: 12,
+        name: 'Espacio Público',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img5,
+        size: 'normal',
+    },
+    {
+        id: 13,
+        name: 'Complejo Residencial',
+        category: 'residencial',
+        categoryLabel: 'Residencial',
+        image: img6,
+        size: 'normal',
+    },
+    {
+        id: 14,
+        name: 'Torre Mixta',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: img8,
+        size: 'normal',
+    },
+    {
+        id: 15,
+        name: 'Masterplan Vista',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img9,
+        size: 'large',
+    },
+    {
+        id: 16,
+        name: 'Centro Comunitario',
+        category: 'cultural',
+        categoryLabel: 'Cultural',
+        image: img10,
+        size: 'normal',
+    },
+    {
+        id: 17,
+        name: 'Paseo Comercial',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: img11,
+        size: 'normal',
+    },
+    {
+        id: 18,
+        name: 'Vivienda Social',
+        category: 'residencial',
+        categoryLabel: 'Residencial',
+        image: img12,
+        size: 'normal',
+    },
+    {
+        id: 19,
+        name: 'Módulo Habitacional',
+        category: 'residencial',
+        categoryLabel: 'Residencial',
+        image: img13,
+        size: 'normal',
+    },
+    {
+        id: 20,
+        name: 'Diagrama Conceptual',
+        category: 'cultural',
+        categoryLabel: 'Cultural',
+        image: img15,
+        size: 'normal',
+    },
+    {
+        id: 21,
+        name: 'Análisis Volumétrico',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: img16,
+        size: 'normal',
+    },
+    {
+        id: 22,
+        name: 'Esquema Funcional',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img17,
+        size: 'normal',
+    },
+    {
+        id: 23,
+        name: 'Perspectiva Aérea',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img18,
+        size: 'large',
+    },
+    {
+        id: 24,
+        name: 'Fachada Principal',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: img19,
+        size: 'normal',
+    },
+    {
+        id: 25,
+        name: 'Sección Constructiva',
+        category: 'residencial',
+        categoryLabel: 'Residencial',
+        image: img20,
+        size: 'normal',
+    },
+    {
+        id: 26,
+        name: 'Planta General',
+        category: 'urbano',
+        categoryLabel: 'Planificación Urbana',
+        image: img21,
+        size: 'normal',
+    },
+    {
+        id: 27,
+        name: 'Corte Transversal',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: img22,
+        size: 'normal',
+    },
+    {
+        id: 28,
+        name: 'Vista Interior',
+        category: 'residencial',
+        categoryLabel: 'Residencial',
+        image: img25,
+        size: 'normal',
+    },
+    {
+        id: 29,
+        name: 'Detalle Arquitectónico',
+        category: 'cultural',
+        categoryLabel: 'Cultural',
+        image: img26,
+        size: 'normal',
+    },
+    {
+        id: 30,
+        name: 'Render Nocturno',
+        category: 'comercial',
+        categoryLabel: 'Comercial',
+        image: img27,
+        size: 'large',
+    },
+    {
+        id: 31,
+        name: 'Concepto Espacial',
+        category: 'cultural',
+        categoryLabel: 'Cultural',
+        image: img30,
+        size: 'normal',
+    },
+    {
+        id: 32,
+        name: 'Visualización 3D',
+        category: 'hotelero',
+        categoryLabel: 'Hotelero',
+        image: img30_1,
         size: 'normal',
     },
 ];

@@ -21,19 +21,19 @@ const Header = () => {
                         >
                             <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
                         </svg>
-                        ARCHITECT.
+                        TOMÁS VEGA
                     </a>
 
                     <nav className="header__nav">
                         <ul className="header__nav-list">
                             <li>
-                                <a href="#projects" className="header__nav-link">Projects</a>
+                                <a href="#projects" className="header__nav-link">Proyectos</a>
                             </li>
                             <li>
-                                <a href="#studio" className="header__nav-link">Studio</a>
+                                <a href="#about" className="header__nav-link">Sobre Mí</a>
                             </li>
                             <li>
-                                <a href="#contact" className="header__nav-link">Contact</a>
+                                <a href="#contact" className="header__nav-link">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -59,7 +59,7 @@ const Header = () => {
                             className="mobile-menu__link"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
-                            Projects
+                            Proyectos
                         </a>
                     </li>
                     <li>
@@ -68,7 +68,7 @@ const Header = () => {
                             className="mobile-menu__link"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
-                            Studio
+                            Sobre Mí
                         </a>
                     </li>
                     <li>
@@ -77,7 +77,7 @@ const Header = () => {
                             className="mobile-menu__link"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
-                            Contact
+                            Contacto
                         </a>
                     </li>
                 </ul>

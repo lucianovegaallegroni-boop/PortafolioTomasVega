@@ -1,4 +1,4 @@
-import heroImage from '../assets/images/hero-building.png';
+import heroImage from '../assets/images/WhatsApp Image 2026-01-08 at 21.43.29 (14).jpeg';
 
 const Hero = () => {
     return (
@@ -6,7 +6,7 @@ const Hero = () => {
             <article className="hero__card">
                 <img
                     src={heroImage}
-                    alt="The Zenith Tower - Modern glass skyscraper"
+                    alt="Portafolio 2024 - Looking to the Future - Tomás Vega"
                     className="hero__image"
                 />
                 <div className="hero__overlay"></div>
@@ -14,17 +14,17 @@ const Hero = () => {
                 <div className="hero__content">
                     <span className="hero__badge">
                         <span className="hero__badge-dot"></span>
-                        Project of the Month
+                        Portafolio 2024
                     </span>
 
-                    <h1 className="hero__title">The Zenith Tower</h1>
+                    <h1 className="hero__title">Tomás Vega</h1>
 
                     <p className="hero__description">
-                        A sustainable vertical ecosystem redefining the downtown skyline.
+                        Looking to the Future — Arquitectura, diseño y visualización de proyectos urbanos y residenciales.
                     </p>
 
-                    <a href="#case-study" className="hero__cta">
-                        View Case Study
+                    <a href="#projects" className="hero__cta">
+                        Ver Proyectos
                         <svg className="hero__cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <path d="M5 12h14M12 5l7 7-7 7" />
                         </svg>

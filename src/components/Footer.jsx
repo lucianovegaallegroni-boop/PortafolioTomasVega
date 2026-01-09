@@ -16,17 +16,17 @@ const Footer = () => {
                             >
                                 <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
                             </svg>
-                            ARCHITECT.
+                            TOMÁS VEGA
                         </a>
                         <p className="footer__tagline">
-                            Designing the future, one structure at a time.
+                            Looking to the Future — Arquitectura y Diseño.
                         </p>
                     </div>
 
                     <nav className="footer__links">
-                        <a href="#privacy" className="footer__link">Privacy</a>
-                        <a href="#terms" className="footer__link">Terms</a>
-                        <a href="#contact" className="footer__link">Contact</a>
+                        <a href="#projects" className="footer__link">Proyectos</a>
+                        <a href="#about" className="footer__link">Sobre Mí</a>
+                        <a href="#contact" className="footer__link">Contacto</a>
                     </nav>
 
                     <div className="footer__social">
@@ -53,7 +53,7 @@ const Footer = () => {
                             </svg>
                         </a>
                         <a
-                            href="mailto:hello@architect.com"
+                            href="mailto:tomas.vega@email.com"
                             className="footer__social-link"
                             aria-label="Email"
                         >
@@ -67,7 +67,7 @@ const Footer = () => {
 
                 <div className="footer__bottom">
                     <p className="footer__copyright">
-                        © {currentYear} Architect Portfolio. All rights reserved.
+                        © {currentYear} Tomás Vega. Todos los derechos reservados.
                     </p>
                 </div>
             </div>

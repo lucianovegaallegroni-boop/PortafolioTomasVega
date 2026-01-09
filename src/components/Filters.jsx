@@ -1,12 +1,10 @@
-import { useState } from 'react';
-
 const filterOptions = [
-    { id: 'all', label: 'All Projects' },
-    { id: 'residential', label: 'Residential' },
-    { id: 'commercial', label: 'Commercial' },
-    { id: 'interiors', label: 'Interiors' },
-    { id: 'landscape', label: 'Landscape' },
-    { id: 'urban', label: 'Urban Planning' },
+    { id: 'all', label: 'Todos' },
+    { id: 'urbano', label: 'Planificación Urbana' },
+    { id: 'comercial', label: 'Comercial' },
+    { id: 'residencial', label: 'Residencial' },
+    { id: 'cultural', label: 'Cultural' },
+    { id: 'hotelero', label: 'Hotelero' },
 ];
 
 const Filters = ({ activeFilter, onFilterChange }) => {
