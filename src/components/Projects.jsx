@@ -37,7 +37,7 @@ const projectsData = [
     {
         id: 1,
         name: 'Centro Cultural',
-        category: 'cultural',
+        category: 'La cuadra 89',
         categoryLabel: 'Cultural',
         image: projectCultural,
         size: 'large',
@@ -45,7 +45,7 @@ const projectsData = [
     {
         id: 2,
         name: 'Cuadra 89',
-        category: 'cultural',
+        category: 'La cuadra 89',
         categoryLabel: 'Cultural',
         image: img3,
         size: 'normal',
@@ -53,7 +53,7 @@ const projectsData = [
     {
         id: 3,
         name: 'Hotel Corotú',
-        category: 'hotelero',
+        category: 'Hotel Corotú',
         categoryLabel: 'Hotelero',
         image: projectHotel,
         size: 'normal',
@@ -61,7 +61,7 @@ const projectsData = [
     {
         id: 4,
         name: 'Plaza Comercial',
-        category: 'comercial',
+        category: 'Hotel Corotú',
         categoryLabel: 'Comercial',
         image: projectPlaza,
         size: 'large',
@@ -109,7 +109,7 @@ const projectsData = [
     {
         id: 10,
         name: 'Desarrollo Urbano',
-        category: 'urbano',
+        category: 'Hotel Corotú',
         categoryLabel: 'Planificación Urbana',
         image: img2,
         size: 'normal',
@@ -117,7 +117,7 @@ const projectsData = [
     {
         id: 11,
         name: 'Residencia Moderna',
-        category: 'residencial',
+        category: 'La cuadra 89',
         categoryLabel: 'Residencial',
         image: img4,
         size: 'normal',
@@ -125,7 +125,7 @@ const projectsData = [
     {
         id: 12,
         name: 'Espacio Público',
-        category: 'urbano',
+        category: 'La cuadra 89',
         categoryLabel: 'Planificación Urbana',
         image: img5,
         size: 'normal',
@@ -133,7 +133,7 @@ const projectsData = [
     {
         id: 13,
         name: 'Complejo Residencial',
-        category: 'residencial',
+        category: 'La cuadra 89',
         categoryLabel: 'Residencial',
         image: img6,
         size: 'normal',
@@ -141,7 +141,7 @@ const projectsData = [
     {
         id: 14,
         name: 'Torre Mixta',
-        category: 'comercial',
+        category: 'La cuadra 89',
         categoryLabel: 'Comercial',
         image: img8,
         size: 'normal',
@@ -149,7 +149,7 @@ const projectsData = [
     {
         id: 15,
         name: 'Masterplan Vista',
-        category: 'urbano',
+        category: 'La cuadra 89',
         categoryLabel: 'Planificación Urbana',
         image: img9,
         size: 'large',
@@ -157,7 +157,7 @@ const projectsData = [
     {
         id: 16,
         name: 'Centro Comunitario',
-        category: 'cultural',
+        category: 'La cuadra 89',
         categoryLabel: 'Cultural',
         image: img10,
         size: 'normal',
@@ -165,7 +165,7 @@ const projectsData = [
     {
         id: 17,
         name: 'Paseo Comercial',
-        category: 'comercial',
+        category: 'La cuadra 89',
         categoryLabel: 'Comercial',
         image: img11,
         size: 'normal',
@@ -173,55 +173,49 @@ const projectsData = [
     {
         id: 18,
         name: 'Vivienda Social',
-        category: 'residencial',
+        category: 'La cuadra 89',
         categoryLabel: 'Residencial',
         image: img12,
         size: 'normal',
     },
     {
-        id: 19,
-        name: 'Módulo Habitacional',
-        category: 'residencial',
-        categoryLabel: 'Residencial',
-        image: img13,
-        size: 'normal',
-    },
-    {
         id: 20,
         name: 'Diagrama Conceptual',
-        category: 'cultural',
+        category: 'Introduccion',
         categoryLabel: 'Cultural',
         image: img15,
-        size: 'normal',
-    },
-    {
-        id: 21,
-        name: 'Análisis Volumétrico',
-        category: 'comercial',
-        categoryLabel: 'Comercial',
-        image: img16,
-        size: 'normal',
+        size: 'large',
+
     },
     {
         id: 22,
         name: 'Esquema Funcional',
-        category: 'urbano',
+        category: 'Introduccion',
         categoryLabel: 'Planificación Urbana',
         image: img17,
         size: 'normal',
     },
     {
+        id: 21,
+        name: 'Análisis Volumétrico',
+        category: 'Introduccion',
+        categoryLabel: 'Comercial',
+        image: img16,
+        size: 'large',
+    },
+
+    {
         id: 23,
         name: 'Perspectiva Aérea',
-        category: 'urbano',
+        category: 'Introduccion',
         categoryLabel: 'Planificación Urbana',
         image: img18,
-        size: 'large',
+        size: 'normal',
     },
     {
         id: 24,
         name: 'Fachada Principal',
-        category: 'comercial',
+        category: 'Cumbre Este',
         categoryLabel: 'Comercial',
         image: img19,
         size: 'normal',
@@ -229,7 +223,7 @@ const projectsData = [
     {
         id: 25,
         name: 'Sección Constructiva',
-        category: 'residencial',
+        category: 'Cumbre Este',
         categoryLabel: 'Residencial',
         image: img20,
         size: 'normal',
@@ -237,7 +231,7 @@ const projectsData = [
     {
         id: 26,
         name: 'Planta General',
-        category: 'urbano',
+        category: 'Cumbre Este',
         categoryLabel: 'Planificación Urbana',
         image: img21,
         size: 'normal',
@@ -245,7 +239,7 @@ const projectsData = [
     {
         id: 27,
         name: 'Corte Transversal',
-        category: 'comercial',
+        category: 'Cumbre Este',
         categoryLabel: 'Comercial',
         image: img22,
         size: 'normal',
@@ -253,7 +247,7 @@ const projectsData = [
     {
         id: 28,
         name: 'Vista Interior',
-        category: 'residencial',
+        category: 'Cumbre Este',
         categoryLabel: 'Residencial',
         image: img25,
         size: 'normal',
@@ -261,7 +255,7 @@ const projectsData = [
     {
         id: 29,
         name: 'Detalle Arquitectónico',
-        category: 'cultural',
+        category: 'Cumbre Este',
         categoryLabel: 'Cultural',
         image: img26,
         size: 'normal',
@@ -269,7 +263,7 @@ const projectsData = [
     {
         id: 30,
         name: 'Render Nocturno',
-        category: 'comercial',
+        category: 'Hotel Corotú',
         categoryLabel: 'Comercial',
         image: img27,
         size: 'large',
@@ -277,7 +271,7 @@ const projectsData = [
     {
         id: 31,
         name: 'Concepto Espacial',
-        category: 'cultural',
+        category: 'Hotel Corotú',
         categoryLabel: 'Cultural',
         image: img30,
         size: 'normal',
@@ -285,7 +279,7 @@ const projectsData = [
     {
         id: 32,
         name: 'Visualización 3D',
-        category: 'hotelero',
+        category: 'Hotel Corotú',
         categoryLabel: 'Hotelero',
         image: img30_1,
         size: 'normal',

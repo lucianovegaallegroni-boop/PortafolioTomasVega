@@ -1,10 +1,9 @@
 const filterOptions = [
+    { id: 'Introduccion', label: 'Introduccion' },
+    { id: 'La cuadra 89', label: 'La cuadra 89' },
+    { id: 'Hotel Corotú', label: 'Hotel Corotú' },
+    { id: 'Cumbre Este', label: 'Cumbre Este' },
     { id: 'all', label: 'Todos' },
-    { id: 'urbano', label: 'Planificación Urbana' },
-    { id: 'comercial', label: 'Comercial' },
-    { id: 'residencial', label: 'Residencial' },
-    { id: 'cultural', label: 'Cultural' },
-    { id: 'hotelero', label: 'Hotelero' },
 ];
 
 const Filters = ({ activeFilter, onFilterChange }) => {
