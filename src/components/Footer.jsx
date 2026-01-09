@@ -28,7 +28,7 @@ const Footer = () => {
                         <a href="#about" className="footer__link">Sobre Mí</a>
                         <a href="#contact" className="footer__link">Contacto</a>
                     </nav>
-
+                    {/* 
                     <div className="footer__social">
                         <a
                             href="https://dribbble.com"
@@ -62,7 +62,7 @@ const Footer = () => {
                                 <polyline points="22,6 12,13 2,6" />
                             </svg>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="footer__bottom">

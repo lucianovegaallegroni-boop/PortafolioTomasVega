@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
         <>
             <header className="header">
                 <div className="header__container">
-                    <a href="/" className="header__logo">
+                    <Link to="/" className="header__logo">
                         <svg
                             className="header__logo-icon"
                             viewBox="0 0 24 24"
@@ -22,15 +23,15 @@ const Header = () => {
                             <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
                         </svg>
                         TOMÁS VEGA
-                    </a>
+                    </Link>
 
                     <nav className="header__nav">
                         <ul className="header__nav-list">
                             <li>
-                                <a href="#projects" className="header__nav-link">Proyectos</a>
+                                <Link to="/" className="header__nav-link">Proyectos</Link>
                             </li>
                             <li>
-                                <a href="#about" className="header__nav-link">Sobre Mí</a>
+                                <Link to="/about" className="header__nav-link">Sobre Mí</Link>
                             </li>
                             <li>
                                 <a href="#contact" className="header__nav-link">Contacto</a>
@@ -54,22 +55,22 @@ const Header = () => {
             <nav className={`mobile-menu ${isMobileMenuOpen ? 'active' : ''}`}>
                 <ul className="mobile-menu__list">
                     <li>
-                        <a
-                            href="#projects"
+                        <Link
+                            to="/"
                             className="mobile-menu__link"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             Proyectos
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a
-                            href="#studio"
+                        <Link
+                            to="/about"
                             className="mobile-menu__link"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             Sobre Mí
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <a

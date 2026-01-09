@@ -1,9 +1,9 @@
 const filterOptions = [
-    { id: 'Introduccion', label: 'Introduccion' },
+    { id: 'all', label: 'Todos' },
     { id: 'La cuadra 89', label: 'La cuadra 89' },
     { id: 'Hotel Corotú', label: 'Hotel Corotú' },
     { id: 'Cumbre Este', label: 'Cumbre Este' },
-    { id: 'all', label: 'Todos' },
+    { id: 'Path to Abstraction', label: 'Path to Abstraction' },
 ];
 
 const Filters = ({ activeFilter, onFilterChange }) => {

@@ -35,19 +35,27 @@ import projectPlaza from '../assets/images/project-plaza.png';
 const projectsData = [
     // Proyectos destacados
     {
-        id: 1,
-        name: 'Centro Cultural',
-        category: 'La cuadra 89',
-        categoryLabel: 'Cultural',
-        image: projectCultural,
-        size: 'large',
-    },
-    {
         id: 2,
         name: 'Cuadra 89',
         category: 'La cuadra 89',
         categoryLabel: 'Cultural',
         image: img3,
+        size: 'normal',
+    },
+    {
+        id: 1,
+        name: 'Centro Cultural',
+        category: 'La cuadra 89',
+        categoryLabel: 'Cultural',
+        image: projectCultural,
+        size: 'normal',
+    },
+    {
+        id: 30,
+        name: 'Render Nocturno',
+        category: 'Hotel Corotú',
+        categoryLabel: 'Comercial',
+        image: img27,
         size: 'normal',
     },
     {
@@ -64,47 +72,7 @@ const projectsData = [
         category: 'Hotel Corotú',
         categoryLabel: 'Comercial',
         image: projectPlaza,
-        size: 'large',
-    },
-    {
-        id: 5,
-        name: 'Lago Chico Las Cumbres',
-        category: 'urbano',
-        categoryLabel: 'Planificación Urbana',
-        image: img23,
         size: 'normal',
-    },
-    {
-        id: 6,
-        name: 'Quebarada Sector C',
-        category: 'urbano',
-        categoryLabel: 'Planificación Urbana',
-        image: img24,
-        size: 'normal',
-    },
-    {
-        id: 7,
-        name: 'Edificio Comercial',
-        category: 'comercial',
-        categoryLabel: 'Comercial',
-        image: img7,
-        size: 'normal',
-    },
-    {
-        id: 8,
-        name: 'Resort Costero',
-        category: 'hotelero',
-        categoryLabel: 'Hotelero',
-        image: imgBase,
-        size: 'normal',
-    },
-    {
-        id: 9,
-        name: 'Vista Tropical',
-        category: 'residencial',
-        categoryLabel: 'Residencial',
-        image: img1,
-        size: 'large',
     },
     {
         id: 10,
@@ -149,15 +117,15 @@ const projectsData = [
     {
         id: 15,
         name: 'Masterplan Vista',
-        category: 'La cuadra 89',
+        category: 'Path to Abstraction',
         categoryLabel: 'Planificación Urbana',
         image: img9,
-        size: 'large',
+        size: 'normal',
     },
     {
         id: 16,
         name: 'Centro Comunitario',
-        category: 'La cuadra 89',
+        category: 'Path to Abstraction',
         categoryLabel: 'Cultural',
         image: img10,
         size: 'normal',
@@ -165,7 +133,7 @@ const projectsData = [
     {
         id: 17,
         name: 'Paseo Comercial',
-        category: 'La cuadra 89',
+        category: 'Path to Abstraction',
         categoryLabel: 'Comercial',
         image: img11,
         size: 'normal',
@@ -173,43 +141,9 @@ const projectsData = [
     {
         id: 18,
         name: 'Vivienda Social',
-        category: 'La cuadra 89',
+        category: 'Path to Abstraction',
         categoryLabel: 'Residencial',
         image: img12,
-        size: 'normal',
-    },
-    {
-        id: 20,
-        name: 'Diagrama Conceptual',
-        category: 'Introduccion',
-        categoryLabel: 'Cultural',
-        image: img15,
-        size: 'large',
-
-    },
-    {
-        id: 22,
-        name: 'Esquema Funcional',
-        category: 'Introduccion',
-        categoryLabel: 'Planificación Urbana',
-        image: img17,
-        size: 'normal',
-    },
-    {
-        id: 21,
-        name: 'Análisis Volumétrico',
-        category: 'Introduccion',
-        categoryLabel: 'Comercial',
-        image: img16,
-        size: 'large',
-    },
-
-    {
-        id: 23,
-        name: 'Perspectiva Aérea',
-        category: 'Introduccion',
-        categoryLabel: 'Planificación Urbana',
-        image: img18,
         size: 'normal',
     },
     {
@@ -260,14 +194,7 @@ const projectsData = [
         image: img26,
         size: 'normal',
     },
-    {
-        id: 30,
-        name: 'Render Nocturno',
-        category: 'Hotel Corotú',
-        categoryLabel: 'Comercial',
-        image: img27,
-        size: 'large',
-    },
+
     {
         id: 31,
         name: 'Concepto Espacial',
@@ -301,7 +228,7 @@ const Projects = ({ activeFilter }) => {
                 {filteredProjects.map((project, index) => (
                     <article
                         key={project.id}
-                        className={`projects__card ${project.size === 'large' ? 'projects__card--large' : ''} animate-fadeInUp animate-delay-${(index % 4 + 1) * 100}`}
+                        className={`projects__card ${project.size === 'normal' ? 'projects__card--normal' : ''} animate-fadeInUp animate-delay-${(index % 4 + 1) * 100}`}
                     >
                         <img
                             src={project.image}

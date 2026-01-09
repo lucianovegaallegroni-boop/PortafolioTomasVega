@@ -1,36 +1,18 @@
-import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Filters from './components/Filters';
-import Projects from './components/Projects';
-import LoadMore from './components/LoadMore';
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 import './index.css';
 
 function App() {
-  const [activeFilter, setActiveFilter] = useState('all');
-
-  const handleFilterChange = (filterId) => {
-    setActiveFilter(filterId);
-  };
-
-  const handleLoadMore = () => {
-    console.log('Loading more projects...');
-    // Aquí iría la lógica para cargar más proyectos
-  };
-
   return (
     <>
       <Header />
-      <main>
-        <Hero />
-        <Filters
-          activeFilter={activeFilter}
-          onFilterChange={handleFilterChange}
-        />
-        <Projects activeFilter={activeFilter} />
-        <LoadMore onClick={handleLoadMore} />
-      </main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
       <Footer />
     </>
   );
